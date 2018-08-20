@@ -1,5 +1,5 @@
-/ : templates/main_page.html
+/ : ['templates/main_page.html', '200 OK', 'Content-Type', 'text/html']
 
-/just_for_fun : templates/just_for_fun.html
+/just_for_fun : ['templates/just_for_fun.html', '200 OK', 'Content-Type', 'text/html']
 
-404_error_page: templates/404error.html
+404_error_page: ['templates/404error.html', '404 NOT FOUND', 'Content-Type', 'text/html']
