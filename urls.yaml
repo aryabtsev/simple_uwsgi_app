@@ -1,0 +1,5 @@
+/ : templates/main_page.html
+
+/just_for_fun : templates/just_for_fun.html
+
+404_error_page: templates/404error.html
